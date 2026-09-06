@@ -1,5 +1,21 @@
 # LLM Inference Systems: A Code-First Course
 
+## Structured weekly lessons
+
+The syllabus below gives the learning order. Each lesson is a self-contained chapter with the required concepts, equations, worked examples, source-reading guidance, checkpoints, and optional references.
+
+1. [Week 0 — The Cost Model of LLM Inference](weeks/week-00.md)
+2. [Week 1 — From Chat Messages to Logits](weeks/week-01.md)
+3. [Week 2 — One Request Through SGLang](weeks/week-02.md)
+4. [Week 3 — Continuous Batching and the Scheduler](weeks/week-03.md)
+5. [Week 4 — KV Cache as a Memory System](weeks/week-04.md)
+6. [Week 5 — Attention Backends, IO, and Data Layout](weeks/week-05.md)
+7. [Week 6 — CUDA Graphs and Overlap Scheduling](weeks/week-06.md)
+8. [Week 7 — Parallel Inference and Communication](weeks/week-07.md)
+9. [Week 8 — Quantization as a Serving Lifecycle](weeks/week-08.md)
+10. [Week 9 — Structured and Speculative Decoding](weeks/week-09.md)
+11. [Week 10 — Profiling and the Capstone](weeks/week-10.md)
+
 This course turns the repository into a guided path from “a prompt goes in” to “a production inference system schedules, executes, and returns tokens.” It uses the repository as the textbook and commit-pinned SGLang source as the laboratory.
 
 The organizing question is:
