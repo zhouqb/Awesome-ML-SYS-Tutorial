@@ -4,6 +4,10 @@
 
 My learning notes for ML SYS.
 
+## Guided Course
+
+- [LLM Inference Systems: A Code-First Course](./course/README.md): a 10-week path through request lifecycles, scheduling, KV cache, attention backends, CUDA Graphs, parallelism, quantization, decoding, and profiling, with commit-pinned source readings and hands-on labs.
+
 I've been writing this blog series intermittently for over a year now, and it's almost become an RL Infra Learning Note 😂
 
 I often see discussions about whether ML SYS or AI Infra is worth getting into, and how to start. Everyone's choice is different. For me, I simply want to **pursue the truth in algorithms**:
