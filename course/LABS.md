@@ -96,6 +96,8 @@ For low, medium, and high concurrency, predict the dominant term and explain wha
 
 Save `week-00/cost-model.md`. Include your original prediction, corrected model after reading, and one paragraph on the largest change in your thinking.
 
+After completing your own attempt, compare it with the [Week 0 reference solution](./solutions/week-00/cost-model.md).
+
 ## Lab 1 — Token-to-logit trace
 
 ### Part A: render and tokenize
