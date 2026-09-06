@@ -97,8 +97,10 @@ Optimizations are meaningless until you know which resource is limiting. This we
 ### Read
 
 - The repository [overview](../README.md), especially “SGLang Learning Notes” and “ML System Fundamentals.”
-- [SGLang scheduler](../sglang/scheduler/readme-en.md), from the introduction through `Batch`.
-- [When SGLang OOMs](../sglang/kvcache-code-walk-through/mem-fraction-static-en.md), through the memory-budget equation.
+- [SGLang Before the Scheduler](./SGLANG_PRIMER.md) in full. This is the required system-context primer.
+- [When SGLang OOMs](../sglang/kvcache-code-walk-through/mem-fraction-static-en.md), only through the memory-budget equation. Stop when the article enters SGLang-specific allocation details.
+
+Do **not** read the scheduler deep-dive in Week 0. It assumes the request lifecycle, batching model, and KV-cache vocabulary introduced by the primer. You will read it in Week 3.
 
 ### Lab and deliverable
 
@@ -192,6 +194,7 @@ The engine must continually decide which work deserves scarce GPU tokens and KV 
 
 ### Read
 
+- Revisit [SGLang Before the Scheduler](./SGLANG_PRIMER.md), especially the name translation and three-pass reading guide.
 - [From KV Cache to Zero Overhead Scheduling](../sglang/scheduler/readme-en.md) in full.
 - Re-read the Scheduler section of [SGLang Code Walk Through](../sglang/code-walk-through/readme.md#scheduler-receive-requests-and-process-batches).
 
